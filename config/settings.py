@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-x71u4p21yz+z36!*%t^f_uhg5z!64(c^!goa0(@^-pxazfg$xv
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["0.0.0.0"]
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "markdownify.apps.MarkdownifyConfig",
     "mainapp",
 ]
 
